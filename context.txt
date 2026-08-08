@@ -1,0 +1,584 @@
+With an NPR 80,000–90,000 budget, I would redesign PRAYASH as a much stronger 9-day Rural Technology & Community Innovation Camp, rather than simply adding more components.
+
+The extra budget should go toward better student kits, more hands-on projects, tools, community demonstrations, documentation, and take-home learning resources.
+
+PROJECT PRAYASH 2026
+9-Day Rural Technology & Community Innovation Camp
+
+Dates: 28 October – 5 November 2026
+Duration: 9 days
+Target: Rural school students
+Recommended Students: 40–50
+Recommended Teams: 8–10 teams
+Budget: NPR 85,000 approximately
+
+The redesigned program keeps the original Project Prayash focus on technical education, community development, electrical safety and youth participation.
+
+1. New Core Concept
+
+Instead of:
+
+Teach electronics → make a few projects
+
+make the program:
+
+Observe → Understand → Learn → Design → Build → Test → Deploy → Present
+
+The students should work on real problems from their own school/community.
+
+Three major pillars
+01 — TECHNICAL FOUNDATION
+
+Students learn:
+
+Electricity
+Electronics
+Sensors
+Microcontrollers
+Programming
+Automation
+Electrical safety
+02 — PROJECT DEVELOPMENT
+
+Students learn to:
+
+Identify problems
+Design solutions
+Build prototypes
+Troubleshoot
+Test
+Document
+03 — COMMUNITY IMPACT
+
+Students use their knowledge to create solutions related to:
+
+Water
+Energy
+Waste
+Safety
+Agriculture
+School infrastructure
+Environment
+2. Redesigned 9-Day Curriculum
+Day	Main Theme	Major Outcome
+Day 1	Technology & Community Problems	Identify real problems
+Day 2	Electricity & Electrical Safety	Build basic circuits
+Day 3	Electronics & Sensors	Build sensor-based systems
+Day 4	Arduino & Programming	Control electronics using code
+Day 5	Automation & Mini Projects	Build useful systems
+Day 6	Community Innovation Challenge	Design final project
+Day 7	Engineering & Project Development	Build final prototype
+Day 8	Testing, Documentation & Presentation	Finalize projects
+Day 9	PRAYASH TECH EXHIBITION	Demonstrate solutions
+DAY 1
+Technology Around Us & Community Problem Discovery
+Theme
+
+"Technology Starts With a Problem."
+
+Students learn:
+
+What is technology?
+Electricity vs electronics
+Examples of technology around them
+Input → Processing → Output
+Basic components
+Introduction to problem-solving
+Practical
+
+Students receive their first electronics kit and build:
+
+LED Circuit
+
+and
+
+Switch-Controlled LED
+
+Main Activity
+
+Students conduct a Community Problem Hunt.
+
+Each team identifies 3–5 problems and selects one major problem.
+
+Day 1 Output
+
+Every team produces:
+
+Problem statement
+Problem location
+People affected
+Proposed solution
+Initial component requirements
+DAY 2
+Electricity, Circuits & Electrical Safety
+Topics
+Voltage
+Current
+Resistance
+Power
+DC electricity
+Series circuits
+Parallel circuits
+Polarity
+Short circuits
+Electrical safety
+Practical Stations
+
+Students rotate through stations.
+
+Station A
+
+LED circuits
+
+Station B
+
+Series and parallel LEDs
+
+Station C
+
+Switch circuits
+
+Station D
+
+Buzzer circuits
+
+Station E
+
+Multimeter
+
+Students learn:
+
+Voltage measurement
+Resistance measurement
+Continuity testing
+Safety Demonstration
+
+A dedicated session on safe electrical practices is important because electrical safety is already one of Project Prayash's planned awareness areas.
+
+DAY 3
+Sensors & Electronics
+Theme
+
+"Making Electronics Understand the Environment."
+
+Students learn:
+
+Digital sensors
+Analog sensors
+LDR
+IR sensor
+Ultrasonic sensor
+Temperature sensor
+Rain sensor
+Water-level sensing
+Servo motor
+Buzzer
+LEDs
+Practical Projects
+
+Students build several mini systems.
+
+Project A — Automatic Night Light
+
+LDR → Circuit → LED
+
+Project B — Rain Alarm
+
+Rain Sensor → Controller → Buzzer
+
+Project C — Distance Alert
+
+Ultrasonic → Controller → Buzzer
+
+Project D — Water Level Indicator
+
+Water Sensor → LEDs
+
+By the end of Day 3, students should understand:
+
+Sensor → Data → Decision → Action
+
+DAY 4
+Arduino & Programming
+
+This is where the course moves from basic electronics into embedded systems.
+
+Topics
+What is a microcontroller?
+Arduino
+Digital input
+Digital output
+Analog input
+Variables
+Conditions
+Loops
+Functions
+Basic serial monitoring
+Practical
+
+Students start with:
+
+Blinking LED
+
+Then:
+
+Button → LED
+
+Then:
+
+LDR → LED
+
+Then:
+
+Ultrasonic → Buzzer
+
+Challenge
+
+Each team receives a small programming challenge.
+
+For example:
+
+If the environment becomes dark, automatically turn the light ON.
+
+DAY 5
+Automation & Mini Project Day
+Theme
+
+"Make It Automatic."
+
+Students now combine:
+
+Sensor + Controller + Output
+
+into useful systems.
+
+Each team builds one mini-project.
+
+Project Options
+
+1. Automatic Night Light
+
+2. Smart Dustbin
+
+3. Water-Level Alarm
+
+4. Rain Alarm
+
+5. Automatic Hand Sanitizer
+
+6. Smart School Bell
+
+7. Door Alert System
+
+8. Smart Parking Indicator
+
+9. Temperature Monitoring System
+
+10. Automatic Classroom Light
+
+The goal isn't complexity.
+
+The goal is:
+
+Can a student understand every part of what they built?
+
+DAY 6
+PRAYASH COMMUNITY INNOVATION CHALLENGE
+
+This becomes the turning point of the program.
+
+Students return to the problems identified on Day 1.
+
+Each team selects one real problem.
+
+Design Process
+STEP 1 — Problem
+
+What is happening?
+
+STEP 2 — People
+
+Who is affected?
+
+STEP 3 — Cause
+
+Why does the problem happen?
+
+STEP 4 — Solution
+
+Can technology help?
+
+STEP 5 — Design
+
+What should the system do?
+
+STEP 6 — Components
+
+What hardware is required?
+
+STEP 7 — Prototype
+
+How will we build it?
+
+Suggested Final Project Categories
+WATER
+Smart Water-Level Monitoring
+
+Detect:
+
+Low level
+Medium level
+High level
+Overflow
+ENERGY
+Smart Energy-Saving Light
+
+Detect:
+
+Darkness
+Human presence
+
+Then automatically control lighting.
+
+WASTE
+Smart Dustbin
+
+Detect approximate fill level.
+
+Provide an indicator when the bin needs attention.
+
+SAFETY
+School Door Alert
+
+Detect unexpected opening and generate an alert.
+
+WEATHER
+Rural Weather Monitor
+
+Measure basic environmental parameters such as:
+
+Temperature
+Humidity
+Rain
+AGRICULTURE
+Smart Plant Monitoring
+
+Monitor basic conditions such as:
+
+Soil moisture
+Temperature
+
+and indicate when a plant may need attention.
+
+DAY 7
+Engineering & Project Development
+
+This becomes a full build day.
+
+Morning
+
+Teams assemble:
+
+Circuit
+Sensors
+Controller
+Output devices
+Afternoon
+
+Teams work on:
+
+Wiring
+Programming
+Enclosure
+Physical construction
+Testing
+Mentors
+
+Instead of building projects for students, mentors should use a:
+
+Question → Hint → Demonstration → Student Implementation
+
+approach.
+
+This makes the learning more meaningful.
+
+DAY 8
+Testing, Documentation & Presentation
+
+Students learn that a project isn't finished simply because the circuit works.
+
+Testing
+
+Teams test:
+
+Sensor accuracy
+Connections
+Power supply
+Program logic
+Repeated operation
+Failure conditions
+Documentation
+
+Each team prepares:
+
+1. Problem
+2. Proposed Solution
+3. Block Diagram
+4. Components
+5. Circuit
+6. Program Logic
+7. Working Principle
+8. Testing
+9. Results
+10. Future Improvements
+DAY 9
+PRAYASH TECH EXHIBITION
+
+The final day becomes a community event.
+
+Project Prayash's original proposal already envisions community participation and improved collaboration between youth, schools and local stakeholders.
+
+Exhibition Areas
+
+ZONE 1 — BASIC ELECTRONICS
+
+Students demonstrate their basic circuits.
+
+ZONE 2 — SMART SYSTEMS
+
+Sensor-based projects.
+
+ZONE 3 — COMMUNITY SOLUTIONS
+
+Final team projects.
+
+ZONE 4 — STUDENT INNOVATION
+
+Students explain their own ideas.
+
+Student Presentation
+
+Each team gets:
+
+5 minutes
+
+3 minutes
+
+Explain the project.
+
+2 minutes
+
+Live demonstration + questions.
+
+3. New Student Kit System
+
+With the increased budget, I strongly recommend giving students team-based electronics kits, rather than having one large common box.
+
+1 kit / 4–5 students
+
+Each kit can contain:
+
+Arduino board
+Breadboard
+Jumper wires
+LEDs
+Resistors
+Push buttons
+Buzzer
+Potentiometer
+LDR
+IR sensor
+Ultrasonic sensor
+Temperature/humidity sensor
+Servo
+Relay module
+Small DC motor
+Basic transistor/diode components
+
+This allows students to continue experimenting during the entire camp.
+
+4. Budget — NPR 85,000
+
+I would structure the budget approximately like this:
+
+Category	Budget
+Student electronics kits	NPR 22,000
+Arduino/microcontroller boards	NPR 8,000
+Sensors & modules	NPR 8,000
+Project construction materials	NPR 7,000
+Tools & testing equipment	NPR 8,000
+Project enclosures/materials	NPR 5,000
+Printing & learning materials	NPR 4,000
+Certificates & recognition	NPR 3,000
+Exhibition setup	NPR 5,000
+Transportation/logistics	NPR 7,000
+Contingency	NPR 8,000
+TOTAL	NPR 85,000
+Budget Range
+
+You can operate between:
+
+Minimum: NPR 80,000
+Target: NPR 85,000
+Maximum: NPR 90,000
+
+5. What Makes This Version Better?
+
+The original concept includes technical training alongside structural development, awareness programs and community participation.
+
+With the larger budget, I would make the technical component deeper and more sustainable.
+
+Old Approach
+
+Lecture → Small circuit → Certificate
+
+Redesigned PRAYASH
+
+Problem → Electronics → Programming → Prototype → Testing → Community Demonstration
+
+6. Final Student Outcomes
+
+After 9 days, a student should be able to:
+
+Electronics
+Identify common components.
+Build basic circuits.
+Use a breadboard.
+Use a multimeter safely.
+Understand basic sensors.
+Programming
+Understand basic Arduino programming.
+Read sensor values.
+Control LEDs, buzzers and servos.
+Use simple conditions.
+Engineering
+Identify a problem.
+Design a solution.
+Select components.
+Build a prototype.
+Troubleshoot.
+Test.
+Social Impact
+
+Most importantly, students should leave with the mindset:
+
+"I can identify a problem around me and try to build a technological solution."
+
+That is a much stronger outcome for a rural-development program than simply teaching students how to assemble Arduino projects.
+
+7. Proposed PRAYASH Impact Target
+
+For an NPR 80k–90k program, I would set measurable targets such as:
+
+Target	Goal
+Students trained	40–50
+Student teams	8–10
+Basic circuits built	40+
+Mini projects	8–10
+Final community projects	5–8
+Technical mentors	4–6
+Community exhibition	1
+Students receiving certificates	40–50
+Project documentation	8–10 project reports
+
+The most important change is that the final projects should be selected from problems students actually observe locally, rather than bringing a fixed list of projects from Kathmandu. This makes the program much more defensible as a genuine rural community development initiative, consistent with PRAYASH's existing stated purpose.

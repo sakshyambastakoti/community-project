@@ -1,0 +1,429 @@
+/* ==========================================================================
+   PROJECT PRAYASH — ELEGANT & PROPERLY FORMATTED A4 PRINT PROPOSAL
+   Matches official institutional proposal standards (project-prayash-english.pdf)
+   ========================================================================== */
+
+/* Screen Defaults for Print-Only Elements */
+.print-official-header,
+.print-all-days-grid,
+.print-signatures-block {
+  display: none;
+}
+
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 1.5cm 1.5cm 1.5cm 1.5cm;
+  }
+
+  /* Reset & Elegant Base Typography */
+  html, body {
+    background-color: #ffffff !important;
+    color: #1A1A1A !important;
+    font-size: 10.5pt !important;
+    line-height: 1.6 !important;
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #111111 !important;
+    font-family: 'Cormorant Garamond', Georgia, serif !important;
+    font-weight: 700 !important;
+    page-break-after: avoid !important;
+    break-after: avoid !important;
+  }
+
+  h1.hero-title {
+    font-size: 32pt !important;
+    line-height: 1.05 !important;
+    margin-bottom: 0.5rem !important;
+    letter-spacing: -0.02em !important;
+  }
+
+  h2.hero-subtitle {
+    font-size: 16pt !important;
+    color: #D92626 !important;
+    margin-bottom: 1rem !important;
+    font-style: italic !important;
+  }
+
+  .heading-primary {
+    font-size: 18pt !important;
+    margin-bottom: 1rem !important;
+    padding-bottom: 0.3rem !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.02em !important;
+  }
+
+  .heading-primary::after {
+    content: '';
+    display: block;
+    width: 48px;
+    height: 3px;
+    background-color: #D92626 !important;
+    margin-top: 0.4rem !important;
+  }
+
+  .heading-secondary {
+    font-size: 14pt !important;
+    margin-bottom: 0.6rem !important;
+  }
+
+  .heading-tertiary {
+    font-size: 11.5pt !important;
+    margin-bottom: 0.4rem !important;
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+  }
+
+  .section-number {
+    font-size: 8.5pt !important;
+    font-weight: 700 !important;
+    color: #D92626 !important;
+    letter-spacing: 0.12em !important;
+    display: block !important;
+    margin-bottom: 0.3rem !important;
+  }
+
+  .lead-text {
+    font-size: 11pt !important;
+    line-height: 1.6 !important;
+    color: #333333 !important;
+    margin-bottom: 1rem !important;
+  }
+
+  p {
+    margin-bottom: 0.75rem !important;
+    color: #2D2D2D !important;
+  }
+
+  /* Hide Interactive Web Controls */
+  .site-header,
+  .scroll-progress-container,
+  .mobile-menu-toggle,
+  .project-filters,
+  .timeline-nav,
+  .screen-timeline-wrap,
+  .nav-actions,
+  .btn,
+  .filter-btn,
+  .site-footer,
+  .no-print {
+    display: none !important;
+  }
+
+  /* Official Print Letterhead Header */
+  .print-official-header {
+    display: block !important;
+    margin-bottom: 1.5rem !important;
+    border-bottom: 3px solid #D92626 !important;
+    padding-bottom: 0.8rem !important;
+    page-break-after: avoid !important;
+  }
+
+  .print-header-top {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+  }
+
+  .print-logo-brand {
+    display: flex !important;
+    align-items: center !important;
+    gap: 1rem !important;
+  }
+
+  .print-org-name {
+    font-family: 'Cormorant Garamond', serif !important;
+    font-weight: 700 !important;
+    font-size: 18pt !important;
+    letter-spacing: 0.05em !important;
+    line-height: 1 !important;
+    color: #1A1A1A !important;
+  }
+
+  .print-org-sub {
+    font-size: 8.5pt !important;
+    color: #555555 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.05em !important;
+    margin-top: 0.2rem !important;
+  }
+
+  .print-meta-block {
+    font-size: 8.5pt !important;
+    text-align: right !important;
+    line-height: 1.4 !important;
+    color: #333333 !important;
+  }
+
+  /* Section Spacing & Page Breaks */
+  .container {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .section-padding {
+    padding: 1.5rem 0 !important;
+    border-bottom: 1px solid #E0E0E0 !important;
+  }
+
+  /* Clean Page Breaks for Key Proposal Modules */
+  #roadmap, #projects, #budget, #support {
+    page-break-before: always !important;
+    break-before: page !important;
+  }
+
+  .hero-section {
+    padding-top: 0.5rem !important;
+    padding-bottom: 1.5rem !important;
+    background: none !important;
+    border-bottom: 2px solid #D92626 !important;
+  }
+
+  .hero-grid-wrap {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 1rem !important;
+  }
+
+  .hero-logo-badge-card {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    text-align: left !important;
+    padding: 0.8rem 1.2rem !important;
+    background: #F7F5EE !important;
+    border: 1px solid #E2DFD2 !important;
+    border-left: 4px solid #D92626 !important;
+  }
+
+  .hero-logo-img {
+    max-width: 100px !important;
+  }
+
+  .hero-statement-box {
+    padding: 1rem 1.25rem !important;
+    margin-bottom: 1.25rem !important;
+    border-left: 4px solid #D92626 !important;
+    background: #F7F5EE !important;
+  }
+
+  .hero-statement-text {
+    font-size: 13.5pt !important;
+    font-weight: 700 !important;
+  }
+
+  /* Key Metrics Grid */
+  .stats-grid {
+    display: grid !important;
+    grid-template-columns: repeat(6, 1fr) !important;
+    gap: 0.6rem !important;
+    margin-top: 1rem !important;
+  }
+
+  .stat-card {
+    padding: 0.6rem 0.4rem !important;
+    border: 1px solid #DEDACF !important;
+    background: #FFFFFF !important;
+    border-radius: 4px !important;
+    text-align: center !important;
+  }
+
+  .stat-number {
+    font-size: 16pt !important;
+    color: #D92626 !important;
+    font-weight: 700 !important;
+  }
+
+  .stat-label {
+    font-size: 7.5pt !important;
+    font-weight: 700 !important;
+  }
+
+  /* Spacious 9-Day Roadmap Layout in Print */
+  .print-all-days-grid {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 1.2rem !important;
+    margin-top: 1rem !important;
+  }
+
+  .print-day-card {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+    border: 1px solid #DEDACF !important;
+    border-top: 3px solid #D92626 !important;
+    padding: 1rem !important;
+    background: #FFFFFF !important;
+    border-radius: 4px !important;
+  }
+
+  .day-content-grid {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 0.8rem !important;
+  }
+
+  .day-box {
+    padding: 0.75rem !important;
+    background: #F7F5EE !important;
+    border: 1px solid #E5E2D8 !important;
+    border-radius: 4px !important;
+  }
+
+  .day-box-title {
+    font-size: 8.5pt !important;
+    font-weight: 800 !important;
+    color: #D92626 !important;
+    margin-bottom: 0.4rem !important;
+  }
+
+  .day-list li {
+    font-size: 9pt !important;
+    line-height: 1.4 !important;
+    padding: 0.2rem 0 0.2rem 1rem !important;
+  }
+
+  /* Projects Grid formatting */
+  #projectsGrid {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 1rem !important;
+  }
+
+  .project-card {
+    border: 1px solid #DEDACF !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+    background: #FFFFFF !important;
+    border-radius: 4px !important;
+  }
+
+  .project-card-header {
+    padding: 0.8rem 1rem !important;
+    background: #F4F2EB !important;
+    border-bottom: 1px solid #E2DFD2 !important;
+  }
+
+  .project-title {
+    font-size: 12pt !important;
+  }
+
+  .project-card-body {
+    padding: 0.8rem 1rem !important;
+    gap: 0.6rem !important;
+  }
+
+  .project-field-label {
+    font-size: 7.5pt !important;
+    margin-bottom: 0.15rem !important;
+  }
+
+  .project-field-val {
+    font-size: 9pt !important;
+    line-height: 1.4 !important;
+  }
+
+  /* Budget Table Styling */
+  .budget-summary-box {
+    padding: 1rem 1.25rem !important;
+    margin-bottom: 1.25rem !important;
+    border: 2px solid #D92626 !important;
+    background: #FFFFFF !important;
+    border-radius: 4px !important;
+  }
+
+  .budget-table {
+    border: 1px solid #1A1A1A !important;
+    margin-bottom: 1.25rem !important;
+    width: 100% !important;
+    border-collapse: collapse !important;
+  }
+
+  .budget-table th, .budget-table td {
+    padding: 0.6rem 1rem !important;
+    font-size: 9.5pt !important;
+    border-bottom: 1px solid #E0E0E0 !important;
+  }
+
+  .budget-table th {
+    background: #1A1A1A !important;
+    color: #FFFFFF !important;
+    font-weight: 700 !important;
+  }
+
+  .budget-table tr.total-row td {
+    background: #F7F5EE !important;
+    font-size: 11pt !important;
+    font-weight: 800 !important;
+    border-top: 2px solid #D92626 !important;
+    color: #D92626 !important;
+  }
+
+  /* Cards and Grids General Styling */
+  .grid-2, .grid-3, .grid-4, .methodology-pipeline, .zones-grid, .support-grid, .safety-grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 0.85rem !important;
+  }
+
+  .methodology-pipeline {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+
+  .card, .zone-card, .support-card, .method-step, .safety-card {
+    border: 1px solid #DEDACF !important;
+    box-shadow: none !important;
+    background: #FFFFFF !important;
+    padding: 0.85rem 1rem !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+    border-radius: 4px !important;
+  }
+
+  .safety-banner {
+    padding: 1rem 1.25rem !important;
+    border: 2px solid #D92626 !important;
+    background: #FFF8F8 !important;
+    border-radius: 4px !important;
+  }
+
+  /* Official Signature & Endorsement Block */
+  .print-signatures-block {
+    display: flex !important;
+    justify-content: space-between !important;
+    margin-top: 2.5rem !important;
+    padding-top: 1.5rem !important;
+    border-top: 1px solid #DEDACF !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  .print-sig-col {
+    width: 30% !important;
+    text-align: center !important;
+    font-size: 9.5pt !important;
+  }
+
+  .print-sig-line {
+    border-bottom: 1.5px solid #1A1A1A !important;
+    height: 45px !important;
+    margin-bottom: 0.5rem !important;
+  }
+
+  .print-stamp-box {
+    border: 2px dashed #999999 !important;
+    height: 70px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 8pt !important;
+    color: #666666 !important;
+    text-transform: uppercase !important;
+    padding: 0.5rem !important;
+  }
+}
